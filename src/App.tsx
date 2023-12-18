@@ -52,6 +52,9 @@ const GlobalStyles = createGlobalStyle`
       Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetical Neue',
       sans-serif;
     }
+    ::-webkit-scrollbar {
+      display:none;
+    }
 `;
 
 const Wrapper = styled.div`

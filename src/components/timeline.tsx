@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import styled from "styled-components";
-import {collection, query, orderBy, getDocs, onSnapshot} from "firebase/firestore";
+import {collection, query, orderBy, onSnapshot} from "firebase/firestore";
 import {db} from "../firebase.tsx";
 import Tweet from "./tweet.tsx";
 import {Unsubscribe} from "firebase/auth"
